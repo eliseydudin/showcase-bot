@@ -1,5 +1,4 @@
 # Showcase Bot
-Showcase bot for your discord server.
 ![](https://github.com/flora-org/showcase-bot/blob/main/thumbnail.gif)
 
 # How to install?
