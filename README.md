@@ -1,5 +1,5 @@
 # Showcase Bot
-![](https://github.com/flora-org/showcase-bot/blob/main/thumbnail.gif)
+![](https://github.com/eliseydudin/showcase-bot/blob/main/thumbnail.gif)
 
 # How to install?
 1. Get [uv](https://github.com/astral-sh/uv)
