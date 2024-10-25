@@ -47,5 +47,7 @@ class Client:
         attachment = message.attachments[0].url
         embed.set_image(url=attachment)
 
-        channel = await self.bot.fetch_channel(self.POST_TO)
+        channel = self.bot.get_channel(self.POST_ID) or await self.bot.fetch_channel(
+            self.POST_TO
+        )
         await channel.send(embed=embed)
