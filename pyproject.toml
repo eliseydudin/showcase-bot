@@ -1,0 +1,11 @@
+[project]
+name = "showcase-bot"
+version = "0.1.0"
+description = "Discord bot for showcase-esque channels"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
