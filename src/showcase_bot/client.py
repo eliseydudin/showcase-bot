@@ -26,7 +26,7 @@ class Client:
         if message.channel.id != self.POST_FROM:
             return
 
-        if len(message.attachments) == 0:
+        if len(message.attachments) == 0 or message.content == "":
             await message.delete()
             return
 

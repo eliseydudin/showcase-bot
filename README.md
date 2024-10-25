@@ -3,7 +3,7 @@
 
 # How to install?
 1. Get [uv](https://github.com/astral-sh/uv)
-2. Do `uv sync` and `uv venv`
+2. Do `uv venv` and `uv sync` 
 3. Create a `.env` file, and put there the bot's `TOKEN`, and ids of the channels you want to post from/to (`POST_FROM_ID`, `POST_TO_ID`)
 It will look something like this:
 ```toml
